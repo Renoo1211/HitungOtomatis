@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Hitung Belanja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Selamat datang di Toko ELEKTRONIK</h1>
+        <p>Belanja lebih mudah dengan perhitungan otomatis</p>
+    </div>
+
+    <div class="form-box">
+        <h2>Form Transaksi</h2>
+        <input type="text" id="pelanggan" placeholder="Nama Pelanggan"><br>
+        <input type="text" id="produk" placeholder="Nama Produk"><br>
+        <input type="number" id="harga" placeholder="Harga Produk"><br>
+        <input type="number" id="jumlah" placeholder="Jumlah Pembelian"><br>
+
+        <button class="hitung" onclick="hitung()">Hitung</button>
+        <button class="reset" onclick="resetForm()">Reset</button>
+    </div>
+
+    <div id="hasil"></div>
+    <script src="script.js"></script>
+    </body>
+
+</html>
